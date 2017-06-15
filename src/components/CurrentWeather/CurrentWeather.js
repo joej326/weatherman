@@ -6,7 +6,7 @@ export default function CurrentWeather( { weather, reset } ) {
 	return (
 		<div className="current-weather">
 			<div className="current-weather__weather">
-				<h3 className="current-weather__location">Provo</h3>
+				<h3 className="current-weather__location">{ weather.name }</h3>
 				<img
 					alt="sunny"
 					className="current-weather__icon"
